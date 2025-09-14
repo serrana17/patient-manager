@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "Patient Management System",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "search": "Search",
+    "noResults": "No results found",
+    "showing": "Showing {{count}} of {{total}} patients",
+    "tryOtherSearch": "Try other search terms"
+  },
+  "patient": {
+    "title": "Patients",
+    "addNew": "Add New Patient",
+    "editPatient": "Edit Patient",
+    "deletePatient": "Delete Patient",
+    "patientDetails": "Patient Details",
+    "name": "Full Name",
+    "namePlaceholder": "Enter full name",
+    "avatar": "Avatar URL",
+    "avatarPlaceholder": "https://example.com/avatar.jpg",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe relevant information about the patient...",
+    "website": "Website",
+    "websitePlaceholder": "https://example.com",
+    "createdAt": "Created",
+    "updatedAt": "Updated",
+    "noPatients": "No patients registered",
+    "startAdding": "Start by adding your first patient",
+    "addFirst": "Add First Patient",
+    "patientId": "Patient ID",
+    "creationDate": "Creation Date",
+    "moreDetails": "More details",
+    "lessDetails": "Less details"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "nameMinLength": "Name must be at least 2 characters",
+    "nameMaxLength": "Name cannot exceed 50 characters",
+    "nameInvalid": "Name can only contain letters and spaces",
+    "avatarRequired": "Avatar URL is required",
+    "avatarInvalid": "Must be a valid URL",
+    "descriptionRequired": "Description is required",
+    "descriptionMinLength": "Description must be at least 5 characters",
+    "websiteRequired": "Website is required",
+    "websiteInvalid": "Must be a valid URL"
+  },
+  "notifications": {
+    "patientCreated": "Patient created successfully",
+    "patientUpdated": "Patient updated successfully",
+    "patientDeleted": "Patient deleted successfully",
+    "errorCreating": "Error creating patient",
+    "errorUpdating": "Error updating patient",
+    "errorDeleting": "Error deleting patient",
+    "errorLoading": "Error loading patients"
+  },
+  "confirmDialog": {
+    "deleteTitle": "Confirm Deletion",
+    "deleteMessage": "Are you sure you want to delete patient \"{{name}}\"? This action cannot be undone.",
+    "deleteConfirm": "Delete",
+    "deleteCancel": "Cancel"
+  },
+  "language": {
+    "switchTo": "Switch to Spanish",
+    "current": "English"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "Sistema de Gestión de Pacientes",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "add": "Agregar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "noResults": "No se encontraron resultados",
+    "showing": "Mostrando {{count}} de {{total}} pacientes",
+    "tryOtherSearch": "Intenta con otros términos de búsqueda"
+  },
+  "patient": {
+    "title": "Pacientes",
+    "addNew": "Agregar Nuevo Paciente",
+    "editPatient": "Editar Paciente",
+    "deletePatient": "Eliminar Paciente",
+    "patientDetails": "Detalles del Paciente",
+    "name": "Nombre Completo",
+    "namePlaceholder": "Ingresa el nombre completo",
+    "avatar": "URL del Avatar",
+    "avatarPlaceholder": "https://ejemplo.com/avatar.jpg",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Describe información relevante sobre el paciente...",
+    "website": "Sitio Web",
+    "websitePlaceholder": "https://ejemplo.com",
+    "createdAt": "Creado",
+    "updatedAt": "Actualizado",
+    "noPatients": "No hay pacientes registrados",
+    "startAdding": "Comienza agregando tu primer paciente",
+    "addFirst": "Agregar Primer Paciente",
+    "patientId": "ID del Paciente",
+    "creationDate": "Fecha de Creación",
+    "moreDetails": "Más detalles",
+    "lessDetails": "Menos detalles"
+  },
+  "validation": {
+    "nameRequired": "El nombre es requerido",
+    "nameMinLength": "El nombre debe tener al menos 2 caracteres",
+    "nameMaxLength": "El nombre no puede exceder 50 caracteres",
+    "nameInvalid": "El nombre solo puede contener letras y espacios",
+    "avatarRequired": "La URL del avatar es requerida",
+    "avatarInvalid": "Debe ser una URL válida",
+    "descriptionRequired": "La descripción es requerida",
+    "descriptionMinLength": "La descripción debe tener al menos 5 caracteres",
+    "websiteRequired": "El sitio web es requerido",
+    "websiteInvalid": "Debe ser una URL válida"
+  },
+  "notifications": {
+    "patientCreated": "Paciente creado exitosamente",
+    "patientUpdated": "Paciente actualizado exitosamente",
+    "patientDeleted": "Paciente eliminado exitosamente",
+    "errorCreating": "Error al crear el paciente",
+    "errorUpdating": "Error al actualizar el paciente",
+    "errorDeleting": "Error al eliminar el paciente",
+    "errorLoading": "Error al cargar los pacientes"
+  },
+  "confirmDialog": {
+    "deleteTitle": "Confirmar Eliminación",
+    "deleteMessage": "¿Estás seguro de que quieres eliminar al paciente \"{{name}}\"? Esta acción no se puede deshacer.",
+    "deleteConfirm": "Eliminar",
+    "deleteCancel": "Cancelar"
+  },
+  "language": {
+    "switchTo": "Cambiar a Inglés",
+    "current": "Español"
+  }
+}
