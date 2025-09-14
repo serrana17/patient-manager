@@ -1,4 +1,4 @@
-# Patient Management System - Light IT Challenge
+# Patient Management System
 
 A modern React application for patient data management with bilingual interface (English/Spanish), complete functionality, and professional design.
 
@@ -57,7 +57,7 @@ A modern React application for patient data management with bilingual interface 
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd light-it-challenge
+cd patient-manager
 ```
 
 ### 2. Install Dependencies
@@ -289,7 +289,3 @@ await patientService.deletePatient(id);
 - **Offline Handling**: Handling of offline states
 - **Loading States**: Loading indicators during requests
 - **Fallback UI**: Backup interfaces for errors
-
-## License
-
-This project is part of the Light IT Challenge and is intended solely for technical evaluation purposes.
